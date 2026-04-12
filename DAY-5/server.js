@@ -7,7 +7,7 @@ const mongoose = require("mongoose")
 
 
 function connectToDb() {
-  mongoose.connect("mongodb://ISHAAN:ishaan2604@ac-zf6dc6i-shard-00-00.kpdpcrp.mongodb.net:27017,ac-zf6dc6i-shard-00-01.kpdpcrp.mongodb.net:27017,ac-zf6dc6i-shard-00-02.kpdpcrp.mongodb.net:27017/?ssl=true&replicaSet=atlas-4eyuii-shard-0&authSource=admin&appName=Cluster0/day6")
+  mongoose.connect("mongodb://ISHAAN:@ac-zf6dc6i-shard-00-00.kpdpcrp.mongodb.net:27017,ac-zf6dc6i-shard-00-01.kpdpcrp.mongodb.net:27017,ac-zf6dc6i-shard-00-02.kpdpcrp.mongodb.net:27017/?ssl=true&replicaSet=atlas-4eyuii-shard-0&authSource=admin&appName=Cluster0/day6")
     .then(() => {
       console.log("ho gya")
     })
